@@ -33,6 +33,7 @@ Simulates the boundary limits of a core game engine runtime. By exposing a nativ
  ┣ 📂 src
  ┃ ┣ 📂 validator_core           # Python Architecture
  ┃ ┃ ┣ 📜 dispatcher.py          # Async engine, worker management, and orchestration
+ ┃ ┃ ┣ 📜 evaluator.py           # Evaluator for the output dataset
  ┃ ┃ ┗ 📜 interop.py             # Ctypes mapping layer to native binary
  ┃ ┗ 📂 native_interop           # C++ Core Subsystem
  ┃ ┃ ┣ 📜 memory_analyzer.cpp    # Raw buffer verification & alignment auditing
